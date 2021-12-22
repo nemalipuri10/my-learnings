@@ -1,0 +1,26 @@
+.basicDetailsForm{
+    padding: 10px;
+    border: 2px solid black;
+    /* display: inline; */
+    margin-top: 30px;
+
+}
+.basicDetailsForm .inputData{
+    margin-bottom: 15px;
+}
+.basicDetailsForm .inputData .labelValue{
+    border-radius: 5px;
+    padding: 5px;
+
+
+}
+.basicDetailsForm .inputData .labelName{
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.basicDetailsForm .submitButton{
+    padding: 10px;
+    font-size:15px;
+
+}

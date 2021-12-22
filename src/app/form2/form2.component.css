@@ -1,0 +1,56 @@
+.headStyle{
+    text-align: center;
+}
+.col1{
+    width:50%;
+    float: right;
+}
+.col2{
+    width:50%;
+}
+.bodyBackground{
+    background-color: yellowgreen;
+}
+.formContent{
+    background-color: cyan;
+    padding: 20px 20px;
+    width:100%;
+}
+.basicStyle{
+    margin:10px;
+    border-radius: 3px;
+    width:50%;
+}
+.container{
+    padding: 20px 0px;
+}
+.labelText{
+    margin:20px;
+    padding-left:100px;
+    font-weight: bold;
+}
+.radioStyle{
+    margin:10px;
+}
+.radiofontStyle{
+    font-weight: bold;
+}
+.submitStyle{
+    border-radius: 3px;
+    background-color: green;
+    color:cornsilk;
+}
+.clearStyle{
+    border-radius: 3px;
+    background-color: blue;
+    margin:20px;
+    color:cornsilk;
+}
+.textareaStyle{
+    border-radius: 3px;
+    width:100%;
+    margin:10px;
+}
+.btnStyle{
+    text-align:center;
+}

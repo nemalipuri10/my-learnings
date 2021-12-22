@@ -1,0 +1,42 @@
+.container{
+    background-color: pink;
+    padding: 20px 50px;
+}
+.formContent{
+    background-color: cornsilk;
+    padding:30px 100px;
+}
+.textStyle{
+    text-align: center;
+}
+.inputData{
+    margin-left:10px;
+    margin-bottom: 10px;
+
+}
+.fname{
+    width: 50%;
+    display: inline;
+}
+.submitBtn{
+    border-radius: 20px;
+    background-color: black; 
+    color:white;
+    border:0px;
+    padding:10px;
+    
+    
+}
+.lableInput{
+    width:100%;
+    
+}
+.lableText{
+    margin:10px 0px;
+}
+.inputArea{
+    width:100%;
+}
+.btnStyle{
+    text-align: center;
+}

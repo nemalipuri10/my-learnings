@@ -1,0 +1,11 @@
+.labelText{
+float:left;
+width: 20%;
+}
+.labelInputData{
+    float:left;
+    width: 30%;
+}
+p{
+    text-align: center;
+}

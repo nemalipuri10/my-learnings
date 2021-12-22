@@ -1,0 +1,60 @@
+.formContainer{
+    background-color: #19BC9D;
+    padding:25%;
+}
+.container1{
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.formContent{
+    text-align: center;
+}
+.heading{
+    background-color: #15A083;
+    color:white;
+    padding:20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.btnStyle{
+    background-color: #15A083;
+    color:white;
+    border-radius: 5px;
+    border:0px;
+    width:100%;
+    margin:15px 0px;
+    padding:10px;
+    font-weight: bold;
+}
+.labelInput{
+    margin: 10px 0px;
+    border-radius: 5px;
+    width:100%;
+    padding: 10px;
+    border: 1px solid grey;
+    
+}
+.signup{
+    color: #15A083;
+}
+.textStyle{
+    color:#15A083;
+    float:left;
+    
+}
+.formFields{
+    padding:20px;
+}
+.usericon{
+    width:20px;
+    height:20px;
+    
+}
+::placeholder{
+    padding-left:40px;
+}
+.icon1{
+    position:absolute;
+    padding: 19px 8px;
+    
+}

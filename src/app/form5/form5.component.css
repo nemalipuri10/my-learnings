@@ -1,0 +1,48 @@
+.formContent{
+    background-color: pink;
+    padding-top:20px;
+}
+.col1{
+    width:40%;
+}
+.col2{
+    width:60%;
+}
+.textStyle{
+    text-align: center;
+}
+.labelText{
+    margin:15px;
+}
+.labelStyle{
+    margin:5px;
+    width:55%;
+}
+.labelInputStyle{
+    margin:5px;
+}
+.addressStyle{
+    margin:5px;
+}
+.zipStyle{
+    margin:5px;
+    width:15%;
+}
+.buttonStyle{
+    background-color: grey;
+    margin:5px;
+}
+.nameStyle{
+    margin:4px;
+    width:27%;
+}
+.labelInputStyle{
+    width:45%;
+}
+.addressStyle{
+    width:60%;
+}
+.linkStyle{
+   margin:100px;
+   padding-left: 100px;
+}
