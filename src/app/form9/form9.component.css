@@ -1,0 +1,51 @@
+.imgContent{
+    width: 300px;
+    height: 470px;
+}
+.bodyBg{
+    background-color: violet;
+}
+.formContent{
+    background-color: white;
+    padding: 20%;
+    border: 2px solid gold;
+}
+.textStyle{
+    padding-left: 12px;
+    font-weight: bold;
+}
+.col1{
+    width: 50%;
+    padding-left: 100px;
+}
+.col2{
+    width: 50%;
+    padding: 20px 100px 20px 0px;
+}
+.termsLink{
+    padding-left: 25px;
+}
+.btnStyle{
+    background-color: blue;
+    border-radius: 3px;
+    border: 0px;
+    padding: 5px 25px;
+    color: white;
+}
+.inputField{
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 100%;
+}
+.labelInput{
+    margin: 5px 0px;
+}
+.labelText{
+    margin-top: 10px;
+}
+.ckeckboxField{
+    padding-top: 20px;
+}
+.buttonField{
+    padding-top: 20px;
+}

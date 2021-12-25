@@ -15,6 +15,9 @@ import { Form5Component } from './form5/form5.component';
 import { Form6Component } from './form6/form6.component';
 import { Form7Component } from './form7/form7.component';
 import { Form8Component } from './form8/form8.component';
+import { Form9Component } from './form9/form9.component';
+import { Form10Component } from './form10/form10.component';
+import { Form11Component } from './form11/form11.component';
 
 
 @NgModule({
@@ -31,8 +34,9 @@ import { Form8Component } from './form8/form8.component';
     Form6Component,
     Form7Component,
     Form8Component,
-    
-    
+    Form9Component,
+    Form10Component,
+    Form11Component,
   ],
   imports: [
     BrowserModule,

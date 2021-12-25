@@ -13,11 +13,14 @@ import { Form5Component } from './form5/form5.component';
 import { Form6Component } from './form6/form6.component';
 import { Form7Component } from './form7/form7.component';
 import { Form8Component } from './form8/form8.component';
+import { Form9Component } from './form9/form9.component';
+import { Form10Component } from './form10/form10.component';
+import { Form11Component } from './form11/form11.component';
 const routes:Routes=[
   {path: 'abc', component:AbcComponent },
   {path: 'app', component:AppComponent},
   {path: 'textarea', component:TextareaComponent},
-  {path: 'Form1' , component:Form1Component},
+  {path: 'Form1', component:Form1Component},
   {path: 'Form', component:FormDivComponent},
   {path: 'Form2', component:Form2Component},
   {path: 'Form3', component:Form3Component},
@@ -26,6 +29,9 @@ const routes:Routes=[
   {path: 'Form6', component:Form6Component},
   {path: 'Form7', component:Form7Component},
   {path: 'Form8', component:Form8Component},
+  {path: 'Form9', component:Form9Component},
+  {path: 'Form10', component:Form10Component},
+  {path: 'Form11', component:Form11Component},
 ]
 @NgModule({
   declarations: [],
