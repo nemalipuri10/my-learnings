@@ -1,0 +1,69 @@
+.formContainer{
+    background-color: #393D49;
+    padding:10% 30%;
+}
+.divContent{
+    background-color: #6696CC;
+    padding:13% 40px 25px 40px;
+    border-radius: 10px;
+}
+.formContent{
+    background-color: #FFFFFF;
+    padding:20px 15px 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.labelInput,.loginField{
+    margin:15px;
+}
+.inputField{
+    width:100%;
+    border:1px solid black;
+    border-radius: 25px;
+    padding:10px;
+    background-color: #F3F1F1;
+}
+.loginButton{
+    background-color: #178CC6;
+    font-weight: bold;
+    font-size: 20px;
+    width:85%;
+    padding: 5px 50px; 
+    border-radius: 25px;
+    border:0px;
+    color:white;
+    box-shadow: 0px 3px #176dc680;
+}
+.forgotText,.bottomText{
+    text-align: center;
+    color:black;
+}
+.header,.signUpText,.forgotText{
+    color:black;
+    font-weight: bold;
+}
+.header1{
+    color:green;
+    padding-bottom: 10px;
+}
+.loginField{
+    text-align: center;
+    padding-top: 10px;
+}
+.formImage{
+    width:90px;
+    height:90px;
+    margin: -10px 100px 10px 100px;
+}
+.inputField{
+    padding-left: 20px;
+}
+.forgotText{
+    padding-left: 100px;
+}
+::placeholder{
+    float:left;
+}
+.bottomText{
+    padding-top: 10px;
+}

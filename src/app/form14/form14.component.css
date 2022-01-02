@@ -1,0 +1,64 @@
+.formContainer{
+    background-color: #E3E3FF;
+    padding:10% 30%;
+}
+.formContent{
+    background-color: #8787C5;
+    padding:20px 15px 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.labelInput,.loginField,.formText,.forgotText{
+    margin:15px;
+}
+.inputField{
+    width:90%;
+    border:0px;
+    border-radius: 25px;
+    padding:10px;
+}
+.loginButton{
+    background-color: #FBBA50;
+    font-weight: bold;
+    font-size: 20px;
+    width:70%;
+    padding: 10px 50px; 
+    border-radius: 25px;
+    border:0px;
+}
+.rememberText,.signUpText{
+    padding-left: 5px;
+}
+.formText,.forgotText{
+    text-align: center;
+}
+.signUpText,.forgotText,.rememberText,.header{
+    color:#FFFFFF;
+    font-weight: bold;
+}
+.loginField{
+    text-align: center;
+}
+::placeholder{
+    text-align: center;
+}
+.formImage{
+    width:90px;
+    height:90px;
+    margin: -10px 100px 10px 100px;
+}
+.inputField{
+    padding-left: 20px;
+}
+.bottomText,.header{
+    color:#FFFFFF;
+    text-align: center;
+    padding: 10px 0px;
+}
+.labelCheck{
+    text-align: center;
+    margin-left: 15px;
+}
+.forgotText{
+    padding-left: 40px;
+}

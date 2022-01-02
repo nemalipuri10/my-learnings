@@ -1,50 +1,58 @@
-.bodyBg{
-    background-color: violet;
+.formContainer{
+    background-color: #60A3BD;
+    padding:10% 30%;
 }
 .formContent{
-    background-color: white;
-    padding: 20%;
-    border: 2px solid gold;
+    background-color: #F39C11;
+    padding:20px 25px 5px 25px;
+    border-radius: 5px; 
 }
-.textStyle{
-    padding-left: 12px;
-    font-weight: bold;
+.labelInput,.labelCheck,.loginField,.formText,.forgotText{
+    margin:10px;
 }
-.col1{
-    width: 50%;
-    padding-left: 100px;
+.inputField,.loginButton{
+    width:100%;
+    border:0px;
+    border-radius: 4px;
+    padding:10px;
 }
-.col2{
-    width: 50%;
-    padding: 20px 100px 20px 0px;
+.loginButton{
+    background-color: #BE3A2C;
+    color:white;
 }
-.col3{
-    width: 50%;
+.rememberText,.signUpText{
+    padding-left: 5px;
 }
-.col4{
-    width: 50%;
+.formText,.forgotText{
+    text-align: center;
 }
-.btnStyle{
-    background-color: blue;
-    border-radius: 3px;
-    border: 0px;
-    padding: 5px 25px;
-    color: white;
+.signUpText,.forgotText{
+    color:green
+}
+.loginField{
+    padding:15px 0px 10px 0px;
+}
+.usericon{
+    width:25px;
+    height:30px;
+    background-color:#BF3B26;
+}
+.icon1{
+    position:absolute;
+    border: 7px solid #BF3B26;
+    margin-left: 10px;
+    border-radius: 3px 0px 0px 3px;  
+}
+::placeholder{
+    padding-left: 40px;
+}
+.formImage{
+    width:90px;
+    height:90px;
+    margin: -60px 100px 10px 200px;
+    border:7px solid #60A3BD;
+    border-radius: 50px;
 }
 .inputField{
-    border-radius: 3px;
-    border: 1px solid black;
-    width: 100%;
-}
-.labelInput{
-    margin: 5px 0px;
-}
-.labelText{
-    margin-top: 10px;
-}
-.ckeckboxField{
-    padding-top: 20px;
-}
-.buttonField{
-    padding-top: 20px;
+    padding-left: 20px;
 }
