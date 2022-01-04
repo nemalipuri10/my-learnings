@@ -3,7 +3,7 @@
     
 }
 .formHearder{
-    background-color: orangered;
+    background-color: #E96951;
     padding:20px;
 }
 .col1{
@@ -16,7 +16,7 @@
     width:100%;
 }
 body{
-    background-color: #a02d72a6;
+    background-color: #93395E;
     padding:20px;
 }
 .labelInput{
@@ -29,14 +29,14 @@ body{
     
 }
 .buttonStyle{
-    background-color: green;
+    background-color: #02BD78;
     padding:0px 235px;
 }
 .imageSetting{
     /* background-image: url('https://previews.123rf.com/images/sgame/sgame1004/sgame100400010/6739238-chat-hi-symbol-isolated-on-white-background.jpg'); */
     background-repeat: no-repeat;
     background-size: 100px 100px;
-
+    
 }
 .formContainer{
     

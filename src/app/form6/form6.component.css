@@ -1,13 +1,13 @@
  .labelInput{ 
     width: 100%;
     margin: 10px 0; 
-    background-color: darkslategray;
+    background-color: #405361;
     border-radius: 3px;
-    border:0px;
+    border-color: gray;
     
 } 
 button {
-    background-color: whitesmoke; 
+    background-color: #CED1DA; 
     color: grey; 
     padding: 14px 20px; 
     margin: 10px 0; 
@@ -17,7 +17,7 @@ button {
 } 
 .container { 
     padding: 30px 15px; 
-    background-color: grey;
+    background-color: #415463;
     border-radius: 10px;
 } 
 .formContainer{

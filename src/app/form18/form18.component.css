@@ -1,0 +1,48 @@
+.formContainer{
+    background-color: #E3E3FF;
+    padding:10% 35%;
+}
+.formContent{
+    background-color: #8787C5;
+    padding:40px 0px 0px 0px ;
+    border-radius: 10px;
+    text-align: center;
+}
+.divContent{
+    padding: 70px 50px;
+    border-radius: 15px;
+    background-color: turquoise;
+}
+.labelInput{
+    margin:15px;
+    border: 1px solid white;
+}
+.inputField{
+    width:100%;
+    border:0px;
+    padding:10px;
+    background-color: #262726;
+}
+.header{
+    color:#FFFFFF;
+    font-weight: bold;
+}
+.formImage{
+    width:90px;
+    height:90px;
+    margin: -10px 100px 10px 100px;
+}
+.inputField{
+    padding-left: 5px;
+}
+.bottomText{
+    color:#FFFFFF;
+    text-align: center;
+    padding: 10px 0px 40px 0px;
+}
+.signUp{
+    padding-left: 60px;
+}
+.signIn,.signUp{
+    color:white;
+}

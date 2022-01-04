@@ -1,0 +1,92 @@
+.formContent{
+    padding:20%;
+    background-color: #76E1EB;
+}
+.labelText{
+    font-weight: bold;
+    font-size: 13px;
+}
+.col1{
+    width:350px;
+    height:500px;
+    background-color: #3986BE;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.col2{
+    width:350px;
+    height:500px;
+    padding:20px;
+    background-color: #FFFFFF;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.col3{
+    width:50%;  
+}
+.col4{
+    width:50%;
+}
+.header{
+    margin: 30px 0px;
+}
+.leftImgSideHeading{
+    font-weight: bold;
+}
+.leftHeader{
+    padding: 50px 20px;
+    /* margin-top:-450px; */
+}
+.leftImgText{
+    margin-top: 30px;
+}
+.inputField{
+    width:100%;
+    border-radius: 5px;
+}
+.labelInput{
+    width:100%;
+    margin-bottom: 10px;
+}
+.mailField{
+    width:100%;
+    border-radius: 5px;
+}   
+/* .image{
+    width:338px;
+    height:500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+} */
+/* .leftContent{
+    background-color: cyan;
+} */
+.termsLink{
+    padding-left: 5px;
+}
+.btnStyle{
+    background-color: #3186BE;
+    border-radius: 5px;
+    border: 1px;
+    padding: 5px 25px;
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.leftBtnStyle{
+    background-color: white;
+    border: 0px;
+    padding: 5px 30px;
+    color: black;
+    margin-top: 15px;
+    font-weight: bold;
+    border-top-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.textStyle{
+    padding-left: 12px;
+    font-weight: bold;
+}
+.checkboxField{
+    margin-top: 20px;
+}

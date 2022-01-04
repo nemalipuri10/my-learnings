@@ -1,0 +1,77 @@
+.imgContent{
+    width: 100%;
+    height: 507px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.bodyBg{
+    background-color: violet;
+    padding:10%;
+}
+.formContent{
+    background-color: white;
+    border: 2px solid gold;
+    border-radius: 15px;
+    
+}
+.textStyle{
+    padding-left: 12px;
+    font-weight: bold;
+}
+.col1{
+    width: 50%;
+}
+.col2{
+    width: 50%;
+    padding: 30px 50px 20px 10px;
+}
+.termsLink{
+    padding-left: 25px;
+}
+.btnStyle{
+    background-color: blue;
+    border-radius: 3px;
+    border: 0px;
+    padding: 5px 25px;
+    color: white;
+}
+.inputField{
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 100%;
+}
+.labelInput{
+    margin: 5px 0px;
+}
+.labelText{
+    margin-top: 10px;
+}
+.ckeckboxField{
+    padding-top: 20px;
+}
+.buttonField{
+    padding-top: 20px;
+}
+.imgTextContent{
+    margin-top: -155px;
+    padding:10px;
+
+}
+.yourMusic{
+    font-weight: bold;
+    font-size: 30px;
+}
+.unlimited{
+    font-weight: bold;
+    font-size:20px;
+}
+.price{
+    font-weight: bold;
+    text-align: right;
+}
+.priceText{
+    font-size: 25px;
+}
+.image{
+    height:514px;
+}

@@ -1,12 +1,12 @@
 .labelInput{ 
     width: 100%;
-    margin: 10px 0; 
+    margin: 10px 0px; 
     background-color: #0F334B;
     border-radius: 3px;
     padding:10px;
     border:0px;
-    color:greenyellow;
-    padding-left: 40px;
+    color: yellowgreen;
+    padding-left: 50px;
 } 
 button {
     background-color: #3DE6AF; 
@@ -30,7 +30,7 @@ button {
 }
 ::placeholder{
     color:white;
-    padding-left: 10px;
+    padding-left: 0px;
 }
 .chechbox{
     color: #807464;
@@ -39,12 +39,14 @@ button {
     float:right;
 }
 .usericon{
-    width:20px;
-    height:20px;
+    width:25px;
+    height:30px;
     background-color: white;
 }
 .icon1{
     position:absolute;
-    border: 10px solid white;
+    border: 7px solid white;
     margin-top: 10px;
+    border-radius: 3px 0px 0px 3px;
+    
 }

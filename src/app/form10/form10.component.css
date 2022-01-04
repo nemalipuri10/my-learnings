@@ -1,0 +1,58 @@
+.formContainer{
+    background-color: #60A3BD;
+    padding:10% 30%;
+}
+.formContent{
+    background-color: #F39C11;
+    padding:20px 25px 5px 25px;
+    border-radius: 5px; 
+}
+.labelInput,.labelCheck,.loginField,.formText,.forgotText{
+    margin:10px;
+}
+.inputField,.loginButton{
+    width:100%;
+    border:0px;
+    border-radius: 4px;
+    padding:10px;
+}
+.loginButton{
+    background-color: #BE3A2C;
+    color:white;
+}
+.rememberText,.signUpText{
+    padding-left: 5px;
+}
+.formText,.forgotText{
+    text-align: center;
+}
+.signUpText,.forgotText{
+    color:green
+}
+.loginField{
+    padding:15px 0px 10px 0px;
+}
+.usericon{
+    width:25px;
+    height:30px;
+    background-color:#BF3B26;
+}
+.icon1{
+    position:absolute;
+    border: 7px solid #BF3B26;
+    margin-left: 10px;
+    border-radius: 3px 0px 0px 3px;  
+}
+::placeholder{
+    padding-left: 40px;
+}
+.formImage{
+    width:90px;
+    height:90px;
+    margin: -60px 100px 10px 200px;
+    border:7px solid #60A3BD;
+    border-radius: 50px;
+}
+.inputField{
+    padding-left: 20px;
+}

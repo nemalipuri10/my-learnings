@@ -1,0 +1,73 @@
+.formContainer{
+    background-color: cadetblue;
+    padding:10% 30%;
+}
+.divContent{
+    background-color: violet;
+    padding:50px; 
+}
+.formContent{
+    background-color: yellowgreen;
+    padding:5%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 4px whitesmoke;
+}
+.col1,.col2{
+    width:50%;
+    padding-left: 35px;
+}
+.labelInput{
+    margin:10px;
+}
+.inputField{
+    border-radius: 20px;
+    border:0px;
+    width:100%;
+    padding:10px;
+    padding-left:50px;
+    box-shadow: 0px 1px whitesmoke;
+    background-color: yellowgreen;
+}
+.loginButton{
+    padding:3px 30px;
+    border:0px;
+    background-color: grey;
+}
+.buttonField{
+    padding-top: 10px;
+}
+.otherButtons{
+    border:1px solid white;
+    background-color: yellowgreen;
+    padding:3px 30px;
+    width:85%;
+}
+.header,.loginButton,.otherButtons,.bottomText,.otherLogin,.buttonField{
+    color:white;
+    text-align: center;
+}
+.bottomText{
+    padding-top: 20px;
+}
+.otherLogin{
+    padding:10px 0px;
+}
+.createAccount{
+    padding-left: 10px;
+    text-decoration: underline;
+}
+.userIcon,.lockIcon{
+    position: absolute;
+    width:30px;
+    height: 30px;
+    margin: 5px 0px 0px 20px;
+}
+.userIcon{
+    margin: 15px 0px 0px 20px;
+}
+.header{
+    padding-bottom: 15px;
+}
+::placeholder{
+    color:white;
+}
