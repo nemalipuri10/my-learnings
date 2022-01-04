@@ -1,0 +1,95 @@
+.formContainer{
+    background-color: pink;
+    padding: 0% 20%;
+}
+.formContent{
+    text-align: center;
+    padding:30px 0px;
+}
+.col1{
+    width:60%;
+    background-color: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+}
+.col2{
+    width:40%;
+    background-color: #38B592;
+    border-radius: 0px 10px 10px 0px;
+}
+.twitterIcon,.linkedIcon{
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+}
+.fbIcon{
+    width:60px;
+    height:60px;
+    border-radius: 50px;
+}
+.linkedIcon{
+    padding-left: 10px;
+}
+.header,.rightHeader{
+    font-weight: bold;
+    font-size: 35px;
+    padding:20px 0px 30px 0px;
+}
+.header{
+    padding: 50px 0px 5px 0px;
+}
+.yourAccount{
+    padding-bottom: 5px;
+}
+.rightHeader,.rightText{
+    color:white;
+}
+.rightText{
+    padding-bottom: 30px;
+}
+.rightHeader{
+    padding-top: 100px;
+}
+.labelInput{
+    margin:15px;
+}
+.inputField{
+    width: 80%;
+    background-color: #EDF5F3;
+    padding:10px;
+    padding-left: 10px;
+    border:0px;
+    border-radius: 15px;
+}
+::placeholder{
+    color:black;
+}
+.eyeIcon{
+    position:absolute;
+    height: 15px;
+    width: 30px;
+    margin-top: 15px;
+    background-color: #EDF5F3;
+}
+.pwdIcon{
+    float:right;
+    padding-right: 100px;
+}
+.loginButton,.signupButton{
+    background-color: #28B498;
+    border-radius: 30px;
+    padding:7px 40px;
+    border:0px;
+    margin: 10px;
+    color:white;
+}
+.signupButton{
+    background-color: #FFFFFF;
+    color:black;
+    
+}
+.buttonField{
+    padding-bottom: 50px;
+}
+.forgotField{
+    padding:5px 0px;
+}
