@@ -16,8 +16,19 @@ import { Form6Component } from './form6/form6.component';
 import { Form7Component } from './form7/form7.component';
 import { Form8Component } from './form8/form8.component';
 import { Form9Component } from './form9/form9.component';
-import { Form10Component } from './form10/form10.component';
 import { Form11Component } from './form11/form11.component';
+import { Form10Component } from './form10/form10.component';
+import { Form12Component } from './form12/form12.component';
+import { Form13Component } from './form13/form13.component';
+import { Form14Component } from './form14/form14.component';
+import { Form15Component } from './form15/form15.component';
+import { Form16Component } from './form16/form16.component';
+import { Form17Component } from './form17/form17.component';
+import { Form18Component } from './form18/form18.component';
+import { Form19Component } from './form19/form19.component';
+import { Form20Component } from './form20/form20.component';
+import { Form21Component } from './form21/form21.component';
+import { Form22Component } from './form22/form22.component';
 
 
 @NgModule({
@@ -35,8 +46,20 @@ import { Form11Component } from './form11/form11.component';
     Form7Component,
     Form8Component,
     Form9Component,
-    Form10Component,
     Form11Component,
+    Form10Component,
+    Form12Component,
+    Form13Component,
+    Form14Component,
+    Form15Component,
+    Form16Component,
+    Form17Component,
+    Form18Component,
+    Form19Component,
+    Form20Component,
+    Form21Component,
+    Form22Component,
+    
   ],
   imports: [
     BrowserModule,

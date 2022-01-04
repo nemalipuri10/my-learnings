@@ -14,8 +14,19 @@ import { Form6Component } from './form6/form6.component';
 import { Form7Component } from './form7/form7.component';
 import { Form8Component } from './form8/form8.component';
 import { Form9Component } from './form9/form9.component';
-import { Form10Component } from './form10/form10.component';
 import { Form11Component } from './form11/form11.component';
+import { Form10Component } from './form10/form10.component';
+import { Form12Component } from './form12/form12.component';
+import { Form13Component } from './form13/form13.component';
+import { Form14Component } from './form14/form14.component';
+import { Form15Component } from './form15/form15.component';
+import { Form16Component } from './form16/form16.component';
+import { Form17Component } from './form17/form17.component';
+import { Form18Component } from './form18/form18.component';
+import { Form19Component } from './form19/form19.component';
+import { Form20Component } from './form20/form20.component';
+import { Form21Component } from './form21/form21.component';
+import { Form22Component } from './form22/form22.component';
 const routes:Routes=[
   {path: 'abc', component:AbcComponent },
   {path: 'app', component:AppComponent},
@@ -30,8 +41,19 @@ const routes:Routes=[
   {path: 'Form7', component:Form7Component},
   {path: 'Form8', component:Form8Component},
   {path: 'Form9', component:Form9Component},
-  {path: 'Form10', component:Form10Component},
   {path: 'Form11', component:Form11Component},
+  {path: 'Form10', component:Form10Component},
+  {path: 'Form12', component:Form12Component},
+  {path: 'Form13', component:Form13Component},
+  {path: 'Form14', component:Form14Component},
+  {path: 'Form15', component:Form15Component},
+  {path: 'Form16', component:Form16Component},
+  {path: 'Form17', component:Form17Component},
+  {path: 'Form18', component:Form18Component},
+  {path: 'Form19', component:Form19Component},
+  {path: 'Form20', component:Form20Component},
+  {path: 'Form21', component:Form21Component},
+  {path: 'Form22', component:Form22Component},
 ]
 @NgModule({
   declarations: [],
