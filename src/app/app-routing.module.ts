@@ -27,6 +27,10 @@ import { Form19Component } from './form19/form19.component';
 import { Form20Component } from './form20/form20.component';
 import { Form21Component } from './form21/form21.component';
 import { Form22Component } from './form22/form22.component';
+import { Form23Component } from './form23/form23.component';
+import { Form24Component } from './form24/form24.component';
+import { Form25Component } from './form25/form25.component';
+import { HeaderComponent } from './header/header.component';
 const routes:Routes=[
   {path: 'abc', component:AbcComponent },
   {path: 'app', component:AppComponent},
@@ -54,6 +58,10 @@ const routes:Routes=[
   {path: 'Form20', component:Form20Component},
   {path: 'Form21', component:Form21Component},
   {path: 'Form22', component:Form22Component},
+  {path: 'Form23', component:Form23Component},
+  {path: 'Form24', component:Form24Component},
+  {path: 'Form25', component:Form25Component},
+  {path: 'Header', component:HeaderComponent},
 ]
 @NgModule({
   declarations: [],
