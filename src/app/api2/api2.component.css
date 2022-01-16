@@ -1,0 +1,23 @@
+h2{
+    color:red;
+}
+
+h2{
+    color:green;
+}
+.stdId{
+color:red;
+}
+.stdName{
+color:blue;
+}
+.stdEmail{
+color:orange;
+}
+.dataTable{
+    border: 1px solid red;
+}
+.dataTable img{
+    width:50px;
+    height:50px;
+}
