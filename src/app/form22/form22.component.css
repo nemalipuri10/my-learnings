@@ -1,0 +1,76 @@
+.formContainer{
+    background-color: grey;
+    padding: 10% 20%;
+}
+.formContent{
+    text-align: center;
+}
+.col1{
+    width:50%;
+    /* background-image:url(../../assets/flower.png);
+    border-radius: 10px 0px 0px 10px;
+    background-repeat: no-repeat; */
+} 
+img{
+    height:100%;
+}
+.labelText{
+    text-align: left;
+    padding-left: 50px;
+}
+.col2{
+    width:50%;
+    background-color: #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+}
+.signWithFb{
+    width:60px;
+    height:50px;
+    border-radius: 50px;
+}
+.fbIcon{
+    padding-bottom: 30px;
+}
+.header{
+    font-weight: bold;
+    font-size: 35px;
+    padding:20px 0px 30px 0px;
+}
+.yourAccount{
+    padding: 20px 0px 30px 0px;
+}
+/* .rightText{
+    color:white;
+    margin-top: 400px;
+} */
+.labelInput{
+    margin: 5px 15px 15px 15px;
+}
+.inputField{
+    width: 80%;
+    border:0px;
+    padding-left: 10px;
+    border-bottom:1px solid black;
+    
+}
+::placeholder{
+    color:black;
+}
+.loginButton{
+    background-color: grey;
+    border-radius: 30px;
+    padding:7px 40px;
+    border:0px;
+    margin: 10px;
+    color:white;
+}
+.buttonField{
+    padding-bottom: 30px;
+}
+.forgotField{
+    text-align: right;
+    padding-right: 50px;
+}
+.bottomText{
+    padding-bottom: 30px;
+}

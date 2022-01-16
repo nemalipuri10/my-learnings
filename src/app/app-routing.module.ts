@@ -27,6 +27,15 @@ import { Form19Component } from './form19/form19.component';
 import { Form20Component } from './form20/form20.component';
 import { Form21Component } from './form21/form21.component';
 import { Form22Component } from './form22/form22.component';
+import { Form23Component } from './form23/form23.component';
+import { Form24Component } from './form24/form24.component';
+import { Form25Component } from './form25/form25.component';
+import { HeaderComponent } from './header/header.component';
+import { Api1Component } from './api1/api1.component';
+import { Api2Component } from './api2/api2.component';
+import { Api3Component } from './api3/api3.component';
+import { Api4Component } from './api4/api4.component';
+import { Api5Component } from './api5/api5.component';
 const routes:Routes=[
   {path: 'abc', component:AbcComponent },
   {path: 'app', component:AppComponent},
@@ -54,6 +63,15 @@ const routes:Routes=[
   {path: 'Form20', component:Form20Component},
   {path: 'Form21', component:Form21Component},
   {path: 'Form22', component:Form22Component},
+  {path: 'Form23', component:Form23Component},
+  {path: 'Form24', component:Form24Component},
+  {path: 'Form25', component:Form25Component},
+  {path: 'Header', component:HeaderComponent},
+  {path: 'Api1' , component:Api1Component},
+  {path: 'Api2' , component:Api2Component},
+  {path: 'Api3' , component:Api3Component},
+  {path: 'Api4' , component:Api4Component},
+  {path: 'Api5' , component:Api5Component},
 ]
 @NgModule({
   declarations: [],

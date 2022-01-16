@@ -1,0 +1,81 @@
+.formContainer{
+    /* background-color: khaki;
+    padding:10% 15%; */
+    background-image: url("../../assets/flower.png");
+    filter: blur(4px);
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .divContent{
+    background-color: lawngreen;
+    padding:10%;
+} */
+.formContent{
+    background-color: rgba(0,0,0, 0.4);  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width:60%;
+    border-radius: 10px;
+}
+.col1{
+    width: 45%;
+    /* background-color: white; */
+    padding: 15px;
+    padding:15px 30px;
+}
+.col2{
+    width:55%;
+    background-image: url(../../assets/table.png);
+    border-radius: 0px 10px 10px 0px;
+}
+.twitterImg{
+    height:30px;
+    width:30px;
+    border-radius: 5px;
+}
+.fbImg{
+    height: 30px;
+    width: 40px;
+}
+.twitter,.facebook{
+    border-radius: 5px;
+    width:50%;
+}
+.header{
+    font-weight: bold;
+    font-size: 20px;
+}
+.noAccount{
+    padding-bottom: 20px;
+}
+.labelText{
+    font-weight: bold;
+}
+.inputField,.loginField{
+    padding: 5px;
+    width:100%;
+    border-radius: 5px;
+    border:1px solid black;
+}
+/* .loginField{
+    background-color: cornflowerblue;
+} */
+.labelInput,.labelCheck{
+    padding-bottom: 10px;
+}
+.forgotField{
+    font-weight: normal;
+    float:right;
+}
+.loginButton,.otherSignin{
+    padding: 5px 0px 10px 0px;
+    text-align: center;
+}
+.fbTwitter{
+    padding: 15px 0px 20px 0px;
+}

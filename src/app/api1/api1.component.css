@@ -1,0 +1,20 @@
+table{
+    text-align:center;
+}
+.tableData, .tableHead, table{
+    border:1px solid black;
+}
+.tableHead{
+    background-color: yellow;
+    color:tomato;
+}
+.tableData{
+    background-color: yellowgreen;
+    color: brown;
+}
+.buttons{
+    padding: 3px 15px;
+}
+.tableButtons{
+    padding-top: 10px;
+}

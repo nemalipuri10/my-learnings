@@ -1,26 +1,26 @@
 .formContainer{
-    /* background-color: cadetblue;
-    padding:10% 30%; */
-    background-image: url(../../assets/download.png);
-    height:100vh; 
+    background-image: url("../../assets/table.png");
+    filter: blur(4px);
+    height: 100vh; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .formContent{
-    background-color: rgba(0, 0, 0, 0.2); 
+    background-color: rgba(0,0,0, 0.4); 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     border-radius: 10px;
-    padding:20px 10px;
-    
+    padding:20px 0px;
+    width:30%;
 }
 .col1,.col2{
     width:50%;
-    padding-left: 35px;
+    padding-left: 45px;
+    
 }
 .labelInput{
     margin:10px;
@@ -32,21 +32,27 @@
     padding:10px;
     padding-left:50px;
     box-shadow: 0px 1px whitesmoke;
-    background-color: yellowgreen;
+}
+.icon{
+    height:30px;
+    width:30px;
 }
 .loginButton{
     padding:3px 30px;
     border:0px;
     background-color: grey;
+    
 }
 .buttonField{
     padding-top: 10px;
+    
 }
 .otherButtons{
     border:1px solid white;
     background-color: yellowgreen;
-    padding:3px 30px;
-    width:85%;
+    width:80%;
+    padding:3px 0px 3px 10px;
+    border-radius: 5px;
 }
 .header,.loginButton,.otherButtons,.bottomText,.otherLogin,.buttonField{
     color:white;
@@ -76,4 +82,12 @@
 }
 ::placeholder{
     color:white;
+}
+/* ---------new code */
+.form25{
+    background-image: url("../../assets/table.png");
+    height:100%;
+}
+body.html{
+    height:100%;
 }
