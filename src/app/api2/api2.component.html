@@ -1,0 +1,70 @@
+<!-- 
+<h2>Siva</h2>
+<p>siva@gmail.com</p>
+<p>9618078799</p>
+<h3>
+    Srinu
+</h3>
+<p>srinu@gmail.ckom</p>
+<p>99999999998</p> -->
+<h1>Students Data</h1>
+<table class="dataTable">
+<tr *ngFor="let student of students">
+
+<td>{{student.name}}</td>
+<td class="stdId">{{student.id}}&nbsp;&nbsp;&nbsp;</td>
+<td  class="stdEmail">{{student.email}}</td>
+<td  class="stdPhone"><img src={{student.avatar}} /></td>
+<td><button (click)="delete(student.id)" >Delete</button></td>
+<td><button (click)="edit(student.id)">Edit</button></td>
+</tr>
+</table>
+<button (click)="previous()">Previous</button> &nbsp;&nbsp;&nbsp;<button (click)="next()">Next</button>
+
+
+
+<form *ngIf="userEdit.first_name!==''">
+    <h2>Edit User</h2>
+    <table>
+        <tr>
+            <td>First Name</td><td><input type="text" value={{userEdit.first_name}}></td>
+        </tr>
+        <tr>
+            <td>Last Name</td><td><input type="text" value={{userEdit.last_name}}></td>
+        </tr>
+
+        <tr>
+            <td>Email</td><td><input type="text" value={{userEdit.email}}></td>
+        </tr>
+
+        <tr>
+            <td>Avatar</td><td> <img src={{userEdit.avatar}} /></td>
+        </tr>
+<tr><td><button (click)="onSubmit('edit',userEdit.id)">Submit</button></td></tr>
+    </table>
+
+</form>
+
+
+
+<form *ngIf="userDelete.first_name!==''">
+    <h2>Delete User</h2>
+    <table>
+        <tr>
+            <td>First Name</td><td><input type="text" value={{userDelete.first_name}}></td>
+        </tr>
+        <tr>
+            <td>Last Name</td><td><input type="text" value={{userDelete.last_name}}></td>
+        </tr>
+
+        <tr>
+            <td>Email</td><td><input type="text" value={{userDelete.email}}></td>
+        </tr>
+
+        <tr>
+            <td>Avatar</td><td> <img src={{userDelete.avatar}} /></td>
+        </tr>
+<tr><td><button (click)="onSubmit('delete',userDelete.id)">Submit</button></td></tr>
+    </table>
+
+</form>
