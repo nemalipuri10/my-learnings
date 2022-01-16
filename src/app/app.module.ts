@@ -33,6 +33,11 @@ import { HeaderComponent } from './header/header.component';
 import { Form23Component } from './form23/form23.component';
 import { Form24Component } from './form24/form24.component';
 import { Form25Component } from './form25/form25.component';
+import { Api1Component } from './api1/api1.component';
+import { Api2Component } from './api2/api2.component';
+import { Api3Component } from './api3/api3.component';
+import { Api4Component } from './api4/api4.component';
+import { Api5Component } from './api5/api5.component';
 
 
 @NgModule({
@@ -67,6 +72,11 @@ import { Form25Component } from './form25/form25.component';
     Form23Component,
     Form24Component,
     Form25Component,
+    Api1Component,
+    Api2Component,
+    Api3Component,
+    Api4Component,
+    Api5Component,
     
   ],
   imports: [

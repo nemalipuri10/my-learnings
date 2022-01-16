@@ -1,0 +1,20 @@
+<table>
+    <tr>
+        <th class="tableHead">ID</th>
+        <th class="tableHead">FIRST NAME</th>
+        <th class="tableHead">LAST NAME</th>
+        <th class="tableHead">EMAIL</th>
+    </tr>
+    <tr *ngFor="let eachUser of usersList.data.data">
+        <td class="tableData">{{eachUser.id}}</td>
+        <td class="tableData">{{eachUser.first_name}}</td>
+        <td class="tableData">{{eachUser.last_name}}</td>
+        <td class="tableData">{{eachUser.email}}</td>
+    </tr>
+</table>
+<div class="tableButtons">
+   <button class="buttons" (click)="onPreviousPageClick()">Previous</button>
+   <button class="buttons" (click)="onNextPageClick()">Next</button>
+   <button class="buttons" (click)="clickOnDelete()">Delete</button>
+   <button class="buttons" (click)="clickOnEdit()">Edit</button>
+</div>
