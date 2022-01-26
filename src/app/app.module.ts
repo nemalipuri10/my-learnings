@@ -38,7 +38,7 @@ import { Api2Component } from './api2/api2.component';
 import { Api3Component } from './api3/api3.component';
 import { Api4Component } from './api4/api4.component';
 import { Api5Component } from './api5/api5.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -82,7 +82,8 @@ import { Api5Component } from './api5/api5.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

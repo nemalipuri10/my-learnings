@@ -1,7 +1,7 @@
 <app-header></app-header>
 <body class="bodyBackground">
   <h4 class="headStyle"><u>Project Management</u></h4>
-  <form action=" " class="container">
+  <form [formGroup]="formProfile" class="container" (ngSubmit)="onSubmit()" >
     <div class="formContent">
       <div class="row">
         <div class="col1">
@@ -13,20 +13,21 @@
           <div class="labelText">Description</div>
         </div>
         <div class="col2">
-          <div><input class="basicStyle" type="text" placeholder="project name" /></div>
+          <div><input class="basicStyle" type="text" formControlName="projectName" placeholder="project name" /></div>
           <div>
             <select class="basicStyle" id="Persons">
               <option value="sreenivas">Sreenivas</option>
               <option value="nemalipuri">Nemalipuri</option>
             </select>
           </div>
-          <div><input class="basicStyle" type="date" placeholder="dd-mm-yyyy" /></div>
-          <div><input class="basicStyle" type="date" placeholder="dd-mm-yyyy" /></div>
-          <div class="radiofontStyle"><input class="radioStyle" name="high"type="radio" id="high" value="high" />High
-            <input class="radioStyle" type="radio" id="average" name="high" value="avarage" />Average
-            <input class="radioStyle" type="radio" id="low" name="high" value="low" />Low
+          <div><input class="basicStyle" type="date" formControlName="startDate"  /></div>
+          <div><input class="basicStyle" type="date" formControlName="endDate" /></div>
+          <div class="radiofontStyle">
+            <input class="radioStyle" formControlName="priority"type="radio" id="high" value="high" />High
+            <input class="radioStyle" formControlName="priority" type="radio" id="average" value="avarage" />Average
+            <input class="radioStyle" formControlName="priority" type="radio" id="low" value="low" />Low
           </div>
-          <div><textarea class="textareaStyle" cols="22"></textarea></div>
+          <div><textarea class="textareaStyle" cols="22" formControlName="description"></textarea></div>
           </div>
         </div>
         <div class="btnStyle"><button class="submitStyle" >Submit</button>
