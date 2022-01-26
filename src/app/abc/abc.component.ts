@@ -10,6 +10,8 @@ export class AbcComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    let  abc="test"
+    //todo
   }
 
 }
