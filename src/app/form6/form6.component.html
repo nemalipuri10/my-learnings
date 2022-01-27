@@ -1,18 +1,16 @@
 <app-header></app-header>
 <body class="formContainer">
   <div class="formContent">
-    <div class="container">
+    <form class="container" [formGroup]='formData' (ngSubmit)='onSubmit()'>
       <div>
-        <input class="labelInput" type="text" placeholder="Username" name="uname" />
-        <i class="fa fa-user fa-lg"></i>
+        <input class="labelInput" type="text" placeholder="Username" formControlName='username'/>       
       </div>
       <div>
         <input class="labelInput" type="password" placeholder="Password" name="psw" />
-        <i class="fa fa-key fa-lg"></i>
       </div>
       <input type="checkbox" checked="checked" />
       <span>Remember me</span> <span class="pswStyle">Forgot Password</span>
       <div><button type="submit">Login</button></div>
-    </div>
+    </form>
   </div>
 </body>

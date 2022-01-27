@@ -1,6 +1,6 @@
 <app-header></app-header>
 <form class="formContainer">
-    <div class="formContent">
+    <form class="formContent" [formGroup]='formProfile' (ngSubmit)='onSubmit()'>
         <h5 class="textStyle">Sign Up</h5>
         <div class="row">
             <div class="col1">
@@ -20,21 +20,21 @@
                 <div class="labelText">*.required fields</div>
             </div>
             <div class="col2">
-                <div><input class="nameStyle" type="text" name="fname" id="" /><input class="nameStyle" type="text" name="lname" id="" /></div>
-                <div><input class="labelStyle" type="text" name="organization" id="" /></div>
-                <div><input class="labelStyle" type="text" name="email" id="" /></div>
-                <div><input class="labelInputStyle"type="text" name="work ph" id="" /></div>
-                <div><input class="labelInputStyle" type="text" name="house ph" id="" /></div>
-                <div><input class="labelInputStyle" type="text" name="cellph" id="" /></div>
-                <div><input class="labelInputStyle" type="text" name="fax" id="" /></div>
-                <div><input class="addressStyle" type="text" name="address1" id="" /></div>
-                <div><input class="addressStyle" type="text" name="address2" id="" /></div>
-                <div><input class="labelStyle" type="text" name="city" id="" /></div>
-                <div><input class="labelStyle" type="text" name="state" id="" /></div>
-                <div><input class="zipStyle" type="text" name="zip code" id="" /></div>
-                <div><input class="labelStyle" type="text" name="country" id="" /></div>
+                <div><input class="nameStyle" type="text" formControlName="firstname" id="" /><input class="nameStyle" type="text" formControlName="lastname" id="" /></div>
+                <div><input class="labelStyle" type="text" formControlName="organization" id="" /></div>
+                <div><input class="labelStyle" type="text" formControlName="email" id="" /></div>
+                <div><input class="labelInputStyle"type="text" formControlName="workph" id="" /></div>
+                <div><input class="labelInputStyle" type="text" formControlName="houseph" id="" /></div>
+                <div><input class="labelInputStyle" type="text" formControlName="cellph" id="" /></div>
+                <div><input class="labelInputStyle" type="text" formControlName="fax" id="" /></div>
+                <div><input class="addressStyle" type="text" formControlName="address1" id="" /></div>
+                <div><input class="addressStyle" type="text" formControlName="address2" id="" /></div>
+                <div><input class="labelStyle" type="text" formControlName="city" id="" /></div>
+                <div><input class="labelStyle" type="text" formControlName="state" id="" /></div>
+                <div><input class="zipStyle" type="text" formControlName="zipcode" id="" /></div>
+                <div><input class="labelStyle" type="text" formControlName="country" id="" /></div>
                 <div><button class="buttonStyle">Submit</button><a class="linkStyle" href="url">Forms</a></div>
             </div>
         </div> 
-    </div>
+    </form>
 </form>

@@ -1,34 +1,30 @@
 <app-header></app-header>
 <body>
   <div class="container imageSetting">
-    <div class="formContainer">
+    <form class="formContainer" [formGroup]='formData' (ngSubmit)='onSubmit()'>
       <div class="">
         <h4 class="formHearder">Blogger Contact Form</h4>
         <img class="imgStyle" src='https://previews.123rf.com/images/sgame/sgame1004/sgame100400010/6739238-chat-hi-symbol-isolated-on-white-background.jpg' width="50px" height="50px"/>
       </div>
       <div class="formContent">
-        
         <div class="row">
           <div class="col1">
             Name
           </div>
           <div class="col2">
-            <div><input class="labelInputData" type="text" name="first name" />
+            <div><input class="labelInputData" type="text" formControlName="firstname" />
             </div>
-            <span class="labelInputData">First Name</span>
-            
-            <div><input class="labelInputData" type="text" name="Last name" /></div>
-            
+            <span class="labelInputData">First Name</span>          
+            <div><input class="labelInputData" type="text" formControlName="lastname" /></div>           
             <span class="labelInputData">Last Name</span>
           </div>
         </div>
-
         <div class="row">
           <div class="col1">
             Email
           </div>
           <div class="col2">
-            <div><input class="labelInputData" type="email" name="email" /></div>
+            <div><input class="labelInputData" type="email" formControlName="email" /></div>
           </div>
         </div>
         <div class="row">
@@ -37,41 +33,30 @@
           </div>
           <div class="col2">
             <div class="row">
-              <div class="col1"><div><input class="labelInputData" type="text" name="area code" /></div>
+              <div class="col1"><div><input class="labelInputData" type="text" formControlName="areacode" /></div>
               <span class="labelInputData subText">Area Code</span></div>
-              <div class="col2">              <div><input class="labelInputData" type="number" name="ph number" /></div>
+              <div class="col2"><div><input class="labelInputData" type="number" formControlName="phone" /></div>
               <span class="labelInputData subText" > Phone Number</span></div>              
-
-
             </div>
-
-           
           </div>
-
         </div>
         <div class="row">
           <div class="col1">
             Website URL
           </div>
           <div class="col2">
-            <div><input class="labelInputData" type="text" name="url" /></div>
+            <div><input class="labelInputData" type="text" formControlName="url" /></div>
           </div>
         </div>
         <div class="row"><span>Message</span>
           <div class="col3">
-            <textarea name="" id="" class="labelInputData"> </textarea>
+            <textarea name="" id="" class="labelInputData" formControlName='message'> </textarea>
           </div>
         </div>
-
       </div>
       <div class="">
         <button class="employeeSubmitBtn">Submit</button>
       </div>
-    </div>
-    <!-- <div>
-      <img src="https://previews.123rf.com/images/sgame/sgame1004/sgame100400010/6739238-chat-hi-symbol-isolated-on-white-background.jpg" width="100px" height="100px"/>
-    </div> -->
-
+    </form>
   </div>
-
 </body>
